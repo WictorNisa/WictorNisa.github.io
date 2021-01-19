@@ -3,7 +3,8 @@ import React from "react";
 function contact() {
   return (
     <section className="contact-section" id="contact">
-        <h3>Contact me!</h3>
+    <div className="contact-overlay">
+    <h3>Contact me!</h3>
         <div className="contact-wrapper">
             <h4>If you wanna see what im currently doing, you can find me in one of these spots</h4>
              <ul>
@@ -11,6 +12,8 @@ function contact() {
                  <li><a href="https://github.com/WictorNisa" target="_blank">Github</a></li>
              </ul>
         </div>
+    </div>
+        
     </section>
   );
 }

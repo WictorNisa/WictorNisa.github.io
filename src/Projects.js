@@ -11,11 +11,20 @@ function projects() {
     <h2 className="project-h2">My Projects</h2>
     <div className="project-wrapper">
         <div className="project-container" id="project1">
-            <h3><a href="https://visualizar-9141e.web.app/" target="_blank">Visualizar</a></h3> 
+        <h3><a href="https://visualizar-9141e.web.app/" target="_blank">Visualizar</a></h3> 
+        <div className="project-overlay">
+        
+        <p>Hello this is a project about poop</p>
+        </div>    
         </div>
 
+
         <div className="project-container" id="project2">
-        <h3><a href="https://nisa.design" target="_blank">Anna Nisa Design</a></h3> 
+        <h3><a href="https://nisa.design" target="_blank">Anna Nisa Design</a></h3>
+        <div className="project-overlay">
+        
+        <p>Hello this is a project about poop and peepee</p>
+        </div>     
         </div>
     </div>
     </section>
