@@ -2,10 +2,9 @@ import React from "react";
 
 function about() {
   return (
-    <section className="about-section">
+    <section className="about-section" id="aboutme">
       
-        <h3 className="name-h3">I'M WICTOR NISÅ</h3>
-        <p>I'm a Front-End Developer who loves to create websites and make them look beautiful. I have a really
+        <p>My name is Wictor and I'm a Front-End Developer who loves to create websites and make them look beautiful. I have a really
         big intrest in design and always try to be on top of the game when it comes to everything design related.
         </p>
         <br/>

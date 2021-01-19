@@ -4,7 +4,7 @@ import {slide as Menu} from 'react-burger-menu';
 
 function header() {
   return (
-    <section className="hero-section">
+    <section className="hero-section" id="home">
      <Hamburger/>
       <div className="hero-overlay">
         <div className="hero-text-contain">

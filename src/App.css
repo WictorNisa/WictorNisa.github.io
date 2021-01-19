@@ -223,6 +223,76 @@ select {
   }
 }
 
+.custom-shape-divider-top-1611002279 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1611002279 svg {
+  position: relative;
+  display: block;
+  width: calc(297% + 1.3px);
+  height: 279px;
+}
+
+.custom-shape-divider-top-1611002279 .shape-fill {
+  fill: #313532;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+  .custom-shape-divider-top-1611002279 svg {
+      width: calc(297% + 1.3px);
+      height: 228px;
+  }
+}
+
+
+.custom-shape-divider-bottom-1611053880 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1611053880 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 500px;
+}
+
+.custom-shape-divider-bottom-1611053880 .shape-fill {
+  fill: #000000;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+  .custom-shape-divider-bottom-1611053880 svg {
+      width: calc(100% + 1.3px);
+      height: 201px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* /===================================HEADER STYLES===================================/ */
 
 .hero-section {
@@ -305,7 +375,8 @@ h1 {
   border-radius: 5px;
   color: white;
   font-family: Karma, serif;
-
+  -webkit-box-shadow: 10px 10px 15px 5px #000000; 
+box-shadow: 10px 10px 15px 5px #000000;
 }
 
 /* /===================================HAMBURGER STYLES===================================/ */
@@ -315,8 +386,8 @@ h1 {
   position: fixed;
   width: 36px;
   height: 30px;
-  left: 36px;
-  top: 36px;
+  left: 20px;
+  top: 20px;
 }
 
 /* Color/shape of burger icon bars */
@@ -326,7 +397,7 @@ h1 {
 
 /* Color/shape of burger icon bars on hover*/
 .bm-burger-bars-hover {
-  background: #a90000;
+  background: black;
 }
 
 /* Position and sizing of clickable cross button */
@@ -351,7 +422,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 /* General sidebar styles */
 .bm-menu {
-  background: #373a47;
+  background: rgba(29,32,29, .9);
   padding: 2.5em 1.5em 0;
   font-size: 1.15em;
 }
@@ -370,11 +441,23 @@ Note: Beware of modifying this element as it can break the animations - you shou
 /* Individual item */
 .bm-item {
   display: inline-block;
+  font-family: Cinzel, sans-serif;
+  font-size: 1.5em;
+  letter-spacing: 0.1em;
+  color: white;
+  text-align: center;
+  margin-bottom: 1.5em;
+  margin-top: 1em;
 }
 
 /* Styling of overlay */
 .bm-overlay {
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.5);
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }
 
 /* /===================================ABOUT STYLES===================================/ */
@@ -394,6 +477,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
   font-size: 1.3em;
   width: 90%;
   margin: auto;
+  margin-top: 1em;
 }
 
 .name-h3 {
@@ -413,9 +497,128 @@ Note: Beware of modifying this element as it can break the animations - you shou
   background-size: cover;
   background-repeat: no-repeat;
   margin: 2em auto 2em auto;
+  -webkit-box-shadow: 10px 10px 15px 5px #000000; 
+box-shadow: 10px 10px 15px 5px #000000;
 }
 
 /* /===================================PROJECTS STYLES===================================/ */
 
 .projects-section {
+  position: relative;
+  height: 170vh;
+  display: flex; 
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+  margin: auto;
+}
+
+
+.project-h2{
+  font-family: Cinzel, sans-serif;
+  font-size: 2.1em;
+  letter-spacing: 0.1em;
+  color: black;
+  text-align: center;
+  margin-bottom: 1.5em;
+  margin-top: 1em;
+}
+
+.project-container{
+  height: 50vh;
+  width: 90%;
+  margin: 3em auto 1em auto;
+  background-color: green;
+  -webkit-box-shadow: 10px 10px 15px 5px #000000; 
+  box-shadow: 10px 10px 15px 5px #000000;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.project-container h3{
+  text-align: center;
+  margin: auto;
+  color: white;
+  background-color:rgba(29,32,29, .8);
+  width: 100%;
+  height: 10vh;
+  align-self: center;
+  font-size: 1.5em;
+  font-family: Cinzel, sans-serif;
+  letter-spacing: 0.1em;
+  display: flex; 
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+}
+
+#project2{
+  background-image: url('./img/project1.png');
+  background-size: cover;
+  background-position: center;
+}
+
+#project1{
+  background-image: url('./img/project2.png');
+  background-size: cover;
+  background-position: center;
+}
+
+
+/* /===================================CONTACT STYLES===================================/ */
+
+.contact-section{
+  height: 50vh;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+}
+
+.contact-section h3{
+  font-family: Cinzel, sans-serif;
+  font-size: 2.1em;
+  letter-spacing: 0.1em;
+  color: white;
+  text-align: center;
+  margin-bottom: 1.5em;
+}
+
+.contact-wrapper{
+  width: 80%;
+  height: 20vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+}
+
+.contact-wrapper h4{
+  color: white;
+  font-family: Karma, serif;
+  font-size: 1.3em;
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.contact-wrapper ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.contact-wrapper ul li {
+  width: 300px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
 }
