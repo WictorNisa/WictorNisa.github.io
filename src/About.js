@@ -5,12 +5,12 @@ function about() {
     <section className="about-section" id="aboutme">
       
         <p id="top-p">My name is Wictor and I'm a Front-End Developer who loves to create websites and make them look beautiful. I have a really
-        big intrest in design and always try to be on top of the game when it comes to everything design related.
+        big intrest in design and always try to be on top of the game when it comes to everything design related. I've fluency in HTML, CSS, JavaScript and React.
         </p>
         <br/>
         <p>When Im not coding you can usually find me playing videogames, trying to draw something, reading a book or
-        just hanging out at the gym. Im always striving to learn something new in this wast world of technologu and coding
-        and up my skills.</p>
+        just hanging out at the gym. Im always striving to learn something new in this wast world of technology 
+        to up my skills.</p>
         <br/>
         <p>Ever since I started my coding adventure about 2 years ago I've been in love with the front end of things, creating everything
         that the user can see and making the user having the best user experience that they can have. Reccently I've been trying out some
